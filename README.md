@@ -1,1 +1,0 @@
-# RishabhSubramanian.github.io
