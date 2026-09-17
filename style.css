@@ -50,3 +50,6 @@ p { margin: 0 0 20px; }
 @media (max-width: 760px) { .header-inner { align-items: flex-start; flex-direction: column; gap: 18px; } main { padding-block: 44px 64px; } .home { grid-template-columns: 1fr; gap: 36px; } figure { max-width: 280px; } .footer-inner { flex-direction: column; gap: 6px; } }
 .footer-links { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 12px; margin-left: auto; }
 section[aria-labelledby="research-title"] { width: 100%; max-width: none; }
+#research-title { margin-bottom: 0.5rem; }
+.research-summary { margin-top: 0; margin-bottom: 0; }
+.research-summary + .research-heading { margin-top: 3rem; }
